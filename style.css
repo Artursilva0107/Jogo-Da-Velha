@@ -1,0 +1,22 @@
+
+body {
+  background: black; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tab {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  gap: 5px;         /* espaço l */    
+  background: yellow;      
+  padding: 5px; /* espaço l */     
+}
+
+.tab div {
+  width: 80px;
+  height: 80px;
+  background: black;      
+}
